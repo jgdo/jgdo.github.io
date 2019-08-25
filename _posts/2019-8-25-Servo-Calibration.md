@@ -7,11 +7,11 @@ ARIPS arm v2 is build with Feetech SCS215 servos which are a cheap alternative t
 
 Therefore I designed and 3d-printed a servo calibration plate with blades at 10 deg distance.
 
-<img src="{{ site.baseurl }}/images/calibration_plate.jpg" alt="Servo calibration graph" width="300"/>
+![3D printed servo calibration plate]({{ site.baseurl }}/images/calibration_plate.jpg)
 
 By manually adjusting the input position to let the calibration arrow point exactly at a particular blade, I created the curve resembling the raw value <-> rotation relation for every single servo.
 
-<img src="{{ site.baseurl }}/images/servo_calibration.png" alt="Servo calibration curve for servo #2" width="300"/>
+![Calibration curve for servo #2]({{ site.baseurl }}/images/servo_calibration.png)
 
 The arm controller node takes a [lookup table of these raw angle <-> angle pairs](https://github.com/jgdo/arips_ros/blob/master/arips_launch/config/scs_servo_params.yaml) and interpolates the values in between. 
 
