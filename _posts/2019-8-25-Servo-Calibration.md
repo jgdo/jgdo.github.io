@@ -3,7 +3,7 @@ layout: post
 title: SCS215 Servo Calibration
 ---
 
-ARIPS arm v2 is build with Feetech SCS215 servos which are a cheap alternative to the Dynamixel AX-12A. Just like the Dynamixel servos, the SCS215 provide positional and torque feedback over a serial bus interface. The positional resolution is 10 bit, i.e. 1024 steps. With a rotational range of about 300 degrees, this means about 0.3 deg per step. However, the internal potentiometer seems not to provide fully linear feedback w.r.t. the rotation angle, and also each individual servo has a slightly different angular offset.
+ARIPS Arm v2 is built with Feetech SCS215 servos which are a cheap but powerful alternative to the Dynamixel AX-12A. Just like the Dynamixel servos, the SCS215 provide positional and torque feedback over a serial bus interface. The positional resolution is 10 bit, i.e. 1024 steps. With a rotational range of about 300 degrees, this means about 0.3 deg per raw step. However, the internal potentiometer seems not to provide fully linear feedback w.r.t. the rotation angle, and also each individual servo has a slightly different angular offset.
 
 Therefore I designed and 3d-printed a servo calibration plate with blades at 10 deg distance.
 
