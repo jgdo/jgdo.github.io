@@ -40,3 +40,4 @@ To calibrate the robot marker plate position, the robot is placed on the ground 
 ## Kinect pose estimation
 
 Once we know <sup>arips_base</sup>T<sub>robot_marker</sub>, we can re-compute <sup>arips_base</sup>T<sub>kinect_base</sub> (i.e. the Kinect's pose wrt. the robot base) during runtime whenever the Kinect sees the robot calibration plate. Note that the robot markers might not be visible if the Kinect is pointing straight forward. In this case the coarse estimation from the tilt servo's angular feedback is used to estimate the Kinect's pose. However, when grasping an object, the Kinect is tilted down anyway, and the markers become are clearly visible.
+
