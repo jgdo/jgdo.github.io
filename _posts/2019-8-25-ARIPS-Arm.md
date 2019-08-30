@@ -14,6 +14,5 @@ The above arm is actually the second version, the first one was made using conve
 Alltogether the ARIPS Arm v1 was hard to design, error-prone, hard to use and to maintain, less precise, and at the end even more expensive then the new arm using the SCS215 servos! For me this was a clear signal to rely more on industrial-made parts instead of trying to do build everything by myself.
 
 ![ARIPS Arm v1]({{ site.baseurl }}/images/arm_old.jpg)|
-:---:
-ARIPS Arm v1 with custom actuators and gears
-
+:---:|
+ARIPS Arm v1 with custom actuators and gears|
