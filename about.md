@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi, I'm an automotive software developer and like to program robots in my spare time. This blog is mainly about my ROS-powered robot ARIPS, one of my biggest private projects.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+mark <<dot>> prediger <<at>> gmail <<dot>> com
+
