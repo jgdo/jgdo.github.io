@@ -23,4 +23,4 @@ The training data was collected manually and annotated using a custom python too
 
 ![Some annotated door handle]({{ site.baseurl }}/images/door/annotated_door_handle.png) | ![Some other annotated and autgmented door handle]({{ site.baseurl }}/images/door/augmented_door_handle.png)
 :-------------:|:-------------:
-Kinect's view of the door handle from below. The door handle start and and points have been annotated. | Some other annotated door handle. Augmented by random brightness/contrast adjustment and Gaussian noise
+Kinect's view of the door handle from below. The door handle start and and points have been annotated. | Detection result of a door handle. The input image was augmented by random brightness/contrast adjustment and Gaussian noise
