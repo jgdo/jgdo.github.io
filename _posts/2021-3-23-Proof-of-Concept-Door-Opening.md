@@ -21,6 +21,6 @@ The robot needs to drive right below the door handle to successfully grab it. To
 
 The training data was collected manually and annotated using a custom python tool. Currently it consists of about 1200 door handle images plus 300 images without a door handle. For training, the images are augmented with random brightness and contrast adjustments and gaussian noise.
 
-![Some annotated door handle]({{ site.baseurl }}/images/door/annotated_door_handle.png) | ![Some other annotated and autgmented door handle]({{ site.baseurl }}/door/images/augmented_door_handle.png)
+![Some annotated door handle]({{ site.baseurl }}/images/door/annotated_door_handle.png) | ![Some other annotated and autgmented door handle]({{ site.baseurl }}/images/door/augmented_door_handle.png)
 :-------------:|:-------------:
 Some annotated door handle | Some other annotated and autgmented door handle
