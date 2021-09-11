@@ -9,8 +9,9 @@ Arips always had problems with overcoming small steps and bumps as they occur on
 I went for the 57518 Lego Tracks, since the length can be easily adjusted and barely bend, there is no need for support wheels in between. I designed and 3d-printed the wheels and the mounting brackets such that the existing EMG30 motors and the MD25 board could be reused. For a better grip especially on door edges I gued felt peds on each on each track link. 
 
 
-![Mounted lego tracks]({{ site.baseurl }}/images/tracks/tracks_view_side.jpg)
-![Tracks with felt pads]({{ site.baseurl }}/images/tracks/tracks_view.jpg)
+![Mounted lego tracks]({{ site.baseurl }}/images/tracks/tracks_view_side.jpg)| ![Tracks with felt pads]({{ site.baseurl }}/images/tracks/tracks_view.jpg)
+:-------------:|:-------------:
+Mounted lego tracks | Tracks with felt pads
 
 For a better grip especially on door edges I gued felt peds on each on each track link. 
 
@@ -34,8 +35,9 @@ One problem with the old caster wheel was that the rotation caster rotation axis
 
 I moved the wheel axis closer to the caster rotation axis with some custom 3d-printed brackets which are mounted on top of the caster metal bracket. Also I printed a new, bigger wheel with TPU tires, hopefully helping it overcoming the door steps.
 
-![]({{ site.baseurl }}/images/tracks/caster_1.jpg)
-![]({{ site.baseurl }}/images/tracks/caster_2.jpg)
+![]({{ site.baseurl }}/images/tracks/caster_1.jpg) | ![]({{ site.baseurl }}/images/tracks/caster_2.jpg)
+:-------------:|:-------------:
+|
 
 TODO new wheels.
 
