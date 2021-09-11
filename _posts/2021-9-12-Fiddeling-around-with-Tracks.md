@@ -30,8 +30,10 @@ This issues render the track approach unusable for moving inside the appartment.
 
 One problem with the old caster wheel was that the rotation caster rotation axis was far away from the wheel axis. Therefor the floor contact point location varied a lot when the caster wheel was facing different directions, making the robot unstable.
 
-![Caster wheel turned to back side when robot is driving forward. Robot is stable since center of mass is far away from outer contact point.]({{ site.baseurl }}/images/tracks/caster_back.jpg)
-![Caster wheel turned to front side when robot is driving backward. Robot is unstable since center of mass is close to outer contact point. A sudden break would throw the robot over the wheel.]({{ site.baseurl }}/images/tracks/caster_front.jpg)
+![Caster wheel turned to back side when robot is driving forward. Robot is stable since center of mass is far away from outer contact point.]({{ site.baseurl }}/images/tracks/caster_back.png) | ![Caster wheel turned to front side when robot is driving backward. Robot is unstable since center of mass is close to outer contact point. A sudden break would throw the robot over the wheel.]({{ site.baseurl }}/images/tracks/caster_front.png)
+:-------------:|:-------------:
+Caster wheel turned to back side when robot is driving forward. Robot is stable since center of mass is far away from outer contact point. | Caster wheel turned to front side when robot is driving backward. Robot is unstable since center of mass is close to outer contact point. A sudden break would throw the robot over the wheel.
+
 
 I moved the wheel axis closer to the caster rotation axis with some custom 3d-printed brackets which are mounted on top of the caster metal bracket. Also I printed a new, bigger wheel with TPU tires, hopefully helping it overcoming the door steps.
 
